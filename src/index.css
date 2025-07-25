@@ -1,11 +1,11 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 html,
-body{
+body {
   padding-inline: 5px;
 }
 
@@ -14,22 +14,22 @@ body{
   line-height: 1.5;
   font-weight: 400;
 
-  --color-accent: #0070A0;
-  --color-light: #FFF;
-  --color-dark: #1F1F1F;
+  --color-accent: #0070a0;
+  --color-light: #fff;
+  --color-dark: #1f1f1f;
 }
 
-a{
+a {
   color: currentColor;
   text-decoration: none;
 }
 
 ul,
-ol{
+ol {
   list-style: none;
 }
 
-img{
+img {
   max-width: 100%;
   height: auto;
   object-fit: cover;

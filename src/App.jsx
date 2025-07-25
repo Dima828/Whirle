@@ -1,4 +1,5 @@
 import "./App.css";
+import Advantages from "./components/Advantages/Advantages";
 import Baner from "./components/Baner/Baner";
 import Companies from "./components/Companies/Companies";
 import Header from "./components/Header/Header";
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Baner />
       <Companies />
+      <Advantages />
     </>
   );
 }
