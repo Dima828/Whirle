@@ -1,0 +1,31 @@
+.companies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.companies__title {
+  font-size: 24px;
+  color: #1f1f1f;
+  margin-bottom: 24px;
+}
+.companies__list {
+  display: flex;
+  -moz-column-gap: 60px;
+       column-gap: 60px;
+}
+
+@media (max-width: 750px) {
+  .companies__list {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 450px) {
+  .companies__list {
+    display: grid;
+    text-align: center;
+    row-gap: 15px;
+    grid-template-columns: 1fr;
+  }
+}/*# sourceMappingURL=Companies.css.map */
