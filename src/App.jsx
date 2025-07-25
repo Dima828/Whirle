@@ -1,15 +1,16 @@
-import './App.css'
-import Baner from './components/Baner/Baner'
-import Header from './components/Header/Header'
+import "./App.css";
+import Baner from "./components/Baner/Baner";
+import Companies from "./components/Companies/Companies";
+import Header from "./components/Header/Header";
 
 function App() {
-
   return (
     <>
-      <Header/>
-      <Baner/>
+      <Header />
+      <Baner />
+      <Companies />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
