@@ -13,7 +13,6 @@ body {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   --color-accent: #0070a0;
   --color-light: #fff;
   --color-dark: #1f1f1f;
@@ -32,5 +31,6 @@ ol {
 img {
   max-width: 100%;
   height: auto;
-  object-fit: cover;
-}
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=index.css.map */

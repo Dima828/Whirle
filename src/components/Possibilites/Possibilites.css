@@ -1,0 +1,54 @@
+.possibilites__inner {
+  background-color: #f7f9fa;
+  padding-block: 80px;
+}
+.possibilites__title {
+  margin-bottom: 30px;
+}
+.possibilites__accordion-list {
+  width: 485px;
+}
+.possibilites__accordion-item {
+  color: #626a72;
+  border-bottom: 1px solid #c2cdd8;
+  border-top: 1px solid #c2cdd8;
+  padding-block: 15px;
+}
+.possibilites__accordion-header {
+  display: flex;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+}
+.possibilites__accordion-desc {
+  margin-left: 45px;
+}
+.possibilites__accordion[open] {
+  color: #1f1f1f;
+}
+.possibilites__body {
+  display: flex;
+  justify-content: space-between;
+}
+.possibilites__img {
+  position: relative;
+  top: -151px;
+  right: 6px;
+}
+
+@media (max-width: 950px) {
+  .possibilites__body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr;
+  }
+  .possibilites__accordion-list {
+    width: 100%;
+  }
+  .possibilites__img {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-inline: auto;
+  }
+}/*# sourceMappingURL=Possibilites.css.map */

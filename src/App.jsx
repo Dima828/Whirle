@@ -3,6 +3,7 @@ import Advantages from "./components/Advantages/Advantages";
 import Baner from "./components/Baner/Baner";
 import Companies from "./components/Companies/Companies";
 import Header from "./components/Header/Header";
+import Possibilites from "./components/Possibilites/Possibilites";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Baner />
       <Companies />
       <Advantages />
+      <Possibilites />
     </>
   );
 }
