@@ -1,4 +1,5 @@
 import "./App.css";
+import About from "./components/About/About";
 import Advantages from "./components/Advantages/Advantages";
 import Baner from "./components/Baner/Baner";
 import Companies from "./components/Companies/Companies";
@@ -13,6 +14,7 @@ function App() {
       <Companies />
       <Advantages />
       <Possibilites />
+      <About />
     </>
   );
 }
