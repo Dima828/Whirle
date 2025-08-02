@@ -5,6 +5,7 @@ import Baner from "./components/Baner/Baner";
 import Companies from "./components/Companies/Companies";
 import Header from "./components/Header/Header";
 import Possibilites from "./components/Possibilites/Possibilites";
+import Track from "./components/Track/Track";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Advantages />
       <Possibilites />
       <About />
+      <Track />
     </>
   );
 }
