@@ -6,6 +6,7 @@ import Blog from "./components/Blog/Blog";
 import Companies from "./components/Companies/Companies";
 import Header from "./components/Header/Header";
 import Possibilites from "./components/Possibilites/Possibilites";
+import Started from "./components/Started/Started";
 import Tasks from "./components/Tasks/Tasks";
 import Track from "./components/Track/Track";
 
@@ -21,6 +22,7 @@ function App() {
       <Track />
       <Tasks />
       <Blog />
+      <Started />
     </>
   );
 }

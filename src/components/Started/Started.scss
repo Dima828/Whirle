@@ -1,0 +1,33 @@
+.started {
+  padding-bottom: 80px;
+
+  &__inner {
+    background-color: #e6f7ff;
+    padding: 64px 64px 48px;
+  }
+
+  &__title {
+    font-size: clamp(37px, 2.8vw, 42px);
+    margin-bottom: 18px;
+  }
+
+  &__desc {
+    margin-bottom: 36px;
+    font-size: 18px;
+    max-width: 503px;
+  }
+
+  &__sub-desc {
+    display: flex;
+    column-gap: 32px;
+    color: #626a72;
+
+    svg {
+      margin-right: 3px;
+    }
+  }
+}
+
+Button {
+  margin-bottom: 12px;
+}
