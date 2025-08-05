@@ -1,0 +1,140 @@
+.footer {
+  margin-bottom: 40px;
+  &__inner {
+    padding-top: 48px;
+  }
+
+  &__top {
+    display: flex;
+    padding-bottom: 64px;
+    margin-bottom: 35px;
+    justify-content: space-between;
+    border-bottom: 1px solid #dee5eb;
+  }
+
+  &__logo {
+    margin-bottom: 20px;
+  }
+
+  &__main {
+    max-width: 432px;
+
+    span {
+      color: #0070a0;
+      margin-left: 5px;
+    }
+  }
+
+  &__list {
+    width: 216px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+    &-header {
+      margin-bottom: 16px;
+    }
+
+    &-item {
+      color: #626a72;
+    }
+  }
+
+  &__desc {
+    display: flex;
+    column-gap: 16px;
+  }
+
+  &__updates-form {
+    max-width: 216px;
+
+    &__header {
+      margin-bottom: 16px;
+    }
+
+    &__desc {
+      margin-bottom: 16px;
+    }
+  }
+
+  &__email {
+    position: relative;
+    border: none;
+    padding: 17px 15px 7px;
+    border-bottom: 1px solid #c2cdd8;
+  }
+  &__galka {
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 16px;
+      left: -9px;
+      top: 50%;
+      height: 16px;
+      border-left: 3px solid #006b99;
+      border-bottom: 3px solid #006b99;
+      transform: translateY(-56%) rotate(-136deg) scale(0.7);
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+
+    &-list {
+      display: flex;
+      column-gap: 20px;
+
+      &__item:hover {
+        cursor: pointer;
+      }
+    }
+
+    &-desc {
+      span {
+        margin-left: 5px;
+        color: #0070a0;
+      }
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .footer {
+    &__top {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    &__desc {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    &__list {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .footer {
+    display: grid;
+    row-gap: 35px;
+    grid-template-columns: 1fr;
+
+    &__top {
+      display: grid;
+      row-gap: 35px;
+      grid-template-columns: 1fr;
+    }
+
+    &__desc {
+      display: grid;
+      grid-template-columns: 1fr;
+      row-gap: 35px;
+    }
+  }
+}

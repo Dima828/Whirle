@@ -1,0 +1,116 @@
+.footer {
+  margin-bottom: 40px;
+}
+.footer__inner {
+  padding-top: 48px;
+}
+.footer__top {
+  display: flex;
+  padding-bottom: 64px;
+  margin-bottom: 35px;
+  justify-content: space-between;
+  border-bottom: 1px solid #dee5eb;
+}
+.footer__logo {
+  margin-bottom: 20px;
+}
+.footer__main {
+  max-width: 432px;
+}
+.footer__main span {
+  color: #0070a0;
+  margin-left: 5px;
+}
+.footer__list {
+  width: 216px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.footer__list-header {
+  margin-bottom: 16px;
+}
+.footer__list-item {
+  color: #626a72;
+}
+.footer__desc {
+  display: flex;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+}
+.footer__updates-form {
+  max-width: 216px;
+}
+.footer__updates-form__header {
+  margin-bottom: 16px;
+}
+.footer__updates-form__desc {
+  margin-bottom: 16px;
+}
+.footer__email {
+  position: relative;
+  border: none;
+  padding: 17px 15px 7px;
+  border-bottom: 1px solid #c2cdd8;
+}
+.footer__galka {
+  position: relative;
+}
+.footer__galka::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  left: -9px;
+  top: 50%;
+  height: 16px;
+  border-left: 3px solid #006b99;
+  border-bottom: 3px solid #006b99;
+  transform: translateY(-56%) rotate(-136deg) scale(0.7);
+}
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__bottom-list {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.footer__bottom-list__item:hover {
+  cursor: pointer;
+}
+.footer__bottom-desc span {
+  margin-left: 5px;
+  color: #0070a0;
+}
+
+@media (max-width: 850px) {
+  .footer__top {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer__desc {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer__list {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .footer {
+    display: grid;
+    row-gap: 35px;
+    grid-template-columns: 1fr;
+  }
+  .footer__top {
+    display: grid;
+    row-gap: 35px;
+    grid-template-columns: 1fr;
+  }
+  .footer__desc {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 35px;
+  }
+}/*# sourceMappingURL=Footer.css.map */

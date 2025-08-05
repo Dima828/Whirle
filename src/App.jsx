@@ -4,6 +4,7 @@ import Advantages from "./components/Advantages/Advantages";
 import Baner from "./components/Baner/Baner";
 import Blog from "./components/Blog/Blog";
 import Companies from "./components/Companies/Companies";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Possibilites from "./components/Possibilites/Possibilites";
 import Started from "./components/Started/Started";
@@ -14,15 +15,18 @@ function App() {
   return (
     <>
       <Header />
-      <Baner />
-      <Companies />
-      <Advantages />
-      <Possibilites />
-      <About />
-      <Track />
-      <Tasks />
-      <Blog />
-      <Started />
+      <main>
+        <Baner />
+        <Companies />
+        <Advantages />
+        <Possibilites />
+        <About />
+        <Track />
+        <Tasks />
+        <Blog />
+        <Started />
+      </main>
+      <Footer />
     </>
   );
 }
